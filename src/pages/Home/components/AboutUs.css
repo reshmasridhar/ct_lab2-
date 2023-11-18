@@ -1,0 +1,43 @@
+.about-us {
+  background-image: url('https://t4.ftcdn.net/jpg/05/91/80/25/240_F_591802594_0f3k7xY1Cw6tRnB8dUw97B7upRUP4TPw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* This will make the background image cover the entire element */
+  padding: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #555;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #080505;
+}
+
+button {
+  background-color: #c2d6ea;
+  color: #110c0c;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: light;
+}

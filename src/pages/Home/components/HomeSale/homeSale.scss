@@ -1,0 +1,33 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.sale-content {
+    background-color: #f0f0f0;
+    background-image: url(https://img.freepik.com/premium-photo/gold-traditional-jewellery_182633-104.jpg?size=626&ext=jpg&ga=GA1.1.1802659275.1695372229&semt=ais);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 293px;
+    @include flexCenter;
+
+    @media(max-width: 767px) {
+        height: 234px;
+    }
+
+    .sale-title {
+        gap: 8px;
+        width: 80%;
+
+        @media(max-width: 767px) {
+            align-items: center;
+        }
+
+        h2 {
+            color: #a71052;
+        }
+
+        h3 {
+            color: $main-color;
+        }
+    }
+}

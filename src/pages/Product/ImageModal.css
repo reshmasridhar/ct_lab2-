@@ -1,0 +1,25 @@
+/* Add this CSS to your Product.css or a separate CSS file */
+.image-modal {
+    position: fixed;
+    top: 250px;
+    left: 450px;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

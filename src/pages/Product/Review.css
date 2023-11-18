@@ -1,0 +1,31 @@
+/* Add this CSS to your Product.css or a separate CSS file */
+.review {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.review-stars {
+    font-size: 20px;
+}
+
+.review-comment {
+    font-size: 14px;
+}
+
+.star {
+    color: #FFD700;
+}

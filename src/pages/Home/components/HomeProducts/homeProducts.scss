@@ -1,0 +1,32 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.home-products {
+    padding-top: 60px;
+
+}
+.collections-page {
+    text-align: center;
+    justify-content: space-between; /* Creates equal space between images */
+  
+    /* Add styling for your gallery or collection items */
+  }
+  .collection-image-row {
+    display: flex;
+  justify-content: space-between;
+  padding:60 20px;
+  }
+ // .collection-image-link{
+   // margin: 0 20px; /* Add equal spacing between images */
+    //text-decoration: none;
+  //}
+  .collection-image-row img{
+    
+  transition: opacity 0.3s;
+}
+
+.collection-image-link:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Slightly enhanced shadow on hover */
+  
+  }
