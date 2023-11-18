@@ -102,7 +102,7 @@ function LoginPage() {
     }
 
     try {
-      const response = await fetch('/LoginPage', {
+      const response = await fetch('https://ct2-be.onrender.com/LoginPage', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
