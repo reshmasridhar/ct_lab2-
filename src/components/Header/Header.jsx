@@ -77,7 +77,7 @@ const Header = () => {
       // Fetch user details from the server using the JWT token
       const token = localStorage.getItem('token');
       if (token) {
-        fetch('/getUserDetails', {
+        fetch('https://ct2-be.onrender.com/getUserDetails', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
