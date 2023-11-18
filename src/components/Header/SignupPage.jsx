@@ -130,7 +130,7 @@ function SignUpPage() {
       alert('Please fill in all fields');
     } else {
       try {
-        const response = await fetch('/jewel', {
+        const response = await fetch('https://ct2-be.onrender.com/jewel', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
